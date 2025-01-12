@@ -9,7 +9,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Text>{process.env.EXPO_PUBLIC_ENV}</Text>
     </View>
   );
 }
